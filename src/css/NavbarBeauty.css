@@ -1,0 +1,622 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+.Man {
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none;
+}
+.Man:before{
+  content: attr(text);
+  position:absolute;
+  color: white;
+  width: 3px;
+  overflow: hidden;
+  transition: 1s;
+  border-right:  #FAFAFA;
+  -webkit-text-stroke: 1px  #FAFAFA;
+}
+
+.Man:hover::before{
+  transition: 0.5s;
+  width: 50px;
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+}
+
+.Beauty {
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.Beauty:before{
+  content: attr(text);
+  position:absolute;
+  color: white;
+  width: 1px;
+  overflow: hidden;
+  transition: 1s;
+  border-right:  #FAFAFA;
+  -webkit-text-stroke: 1px  #FAFAFA;
+}
+
+.Beauty:hover::before{
+  transition: 0.5s;
+  width: 70px;
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+}
+
+.Women {
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+.Women:before{
+  text-decoration: none;
+  content: attr(text);
+  position:absolute;
+  color: white;
+  width: 1px;
+  overflow: hidden;
+  transition: 1s;
+  border-right:  #FAFAFA;
+  -webkit-text-stroke: 1px  #FAFAFA;
+}
+
+.Women:hover::before{
+  transition: 0.5s;
+  width: 70px;
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+}
+.Navbar-Man {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  gap: 130px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: #212121;
+}
+
+.Child {
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  margin-right: 0px;
+  padding-left: 0;
+}
+.Child:before{
+  content: attr(text);
+  position:absolute;
+  color: white;
+  width: 1px;
+  overflow: hidden;
+  transition: 1s;
+  border-right:  #FAFAFA;
+  -webkit-text-stroke: 1px  #FAFAFA;
+}
+
+.Child:hover::before{
+  transition: 0.5s;
+  width: 60px;
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+}
+
+.discount {
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.discount:before{
+  content: attr(text);
+  position:absolute;
+  color: white;
+  width: 1px;
+  overflow: hidden;
+  transition: 1s;
+  border-right: 1px solid #FAFAFA;
+  -webkit-text-stroke: 1px  #FAFAFA;
+}
+
+.discount:hover::before{
+  transition: 0.5s;
+  width: 45px;
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+}
+/*
+.Navbar-Man > P:hover {
+  color: #78909C;
+  cursor: pointer;
+  transition: 0.5s;
+}
+*/
+
+.Icons {
+  display: flex;
+  gap: 80px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 1400px){
+  .Navbar-Man {
+    gap: 90px;
+  }
+}
+@media only screen and (max-width: 1185px){
+  .Navbar-Man {
+    gap: 70px;
+  }
+}
+@media only screen and (max-width: 1070px){
+  .Navbar-Man {
+    gap: 50px;
+  }
+}
+@media only screen and (max-width: 970px){
+  .Navbar-Man {
+    gap: 30px;
+  }
+}
+@media only screen and (max-width: 900px){
+  .Navbar-Man {
+    gap: 60px;
+  }
+}
+@media only screen and (max-width: 700px){
+  .Navbar-Man {
+    gap: 40px;
+  }
+}
+@media only screen and (max-width: 600px){
+  .Navbar-Man {
+    gap: 25px;
+  }
+
+}
+@media only screen and (max-width: 541px){
+  .Navbar-Man {
+    gap: 25px;
+  }
+  .Icons {
+    gap: 30px;
+  }
+
+}
+@media only screen and (max-width: 440px){
+  .Navbar-Man {
+    gap: 25px;
+  }
+  .Navbar-Search-bar {
+    width: 150px;
+    padding: 8px;
+  }
+}
+@media only screen and (max-width: 376px){
+  .Navbar-Man {
+    gap: 25px;
+  }
+  .Navbar-Search-bar {
+    width: 130px;
+    padding: 8px;
+  }
+  .Icons {
+    gap: 40px;
+  }
+
+}
+@media only screen and (max-width: 361px){
+  .Navbar-Man {
+    gap: 25px;
+  }
+  .Navbar-Search-bar {
+    width: 120px;
+    padding: 8px;
+
+  }
+}
+    .Middlee-box {
+      width: 100%;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 255px;
+      font-family: 'Roboto', sans-serif;
+      background-color: #212121;
+      color: rgb(0, 0, 0);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+.Clothes {
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.Clothes:before{
+  content: attr(text);
+  position:absolute;
+  color: white;
+  width: 1px;
+  overflow: hidden;
+  transition: 1s;
+  border-right:  #FAFAFA;
+  -webkit-text-stroke: 1px  #FAFAFA;
+}
+
+.Clothes:hover::before{
+  transition: 0.5s;
+  width: 80px;
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+}
+
+.Shoes {
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.Shoes:before{
+  content: attr(text);
+  position:absolute;
+  color: white;
+  width: 1px;
+  overflow: hidden;
+  transition: 1s;
+  border-right:  #FAFAFA;
+  -webkit-text-stroke: 1px  #FAFAFA;
+}
+
+.Shoes:hover::before{
+  transition: 0.5s;
+  width: 60px;
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+}
+
+.Sneakers {
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.Sneakers:before{
+  content: attr(text);
+  position:absolute;
+  color: white;
+  width: 1px;
+  overflow: hidden;
+  transition: 1s;
+  border-right:  #FAFAFA;
+  -webkit-text-stroke: 1px  #FAFAFA;
+}
+
+.Sneakers:hover::before{
+  transition: 0.5s;
+  width: 95px;
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+}
+
+.Bags {
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.Bags:before{
+  content: attr(text);
+  position:absolute;
+  color: white;
+  width: 1px;
+  overflow: hidden;
+  transition: 1s;
+  border-right:  #FAFAFA;
+  -webkit-text-stroke: 1px  #FAFAFA;
+}
+
+.Bags:hover::before{
+  transition: 0.5s;
+  width: 50px;
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+}
+
+.Accessories {
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.Accessories:before{
+  content: attr(text);
+  position:absolute;
+  color: white;
+  width: 1px;
+  overflow: hidden;
+  transition: 1s;
+  border-right:  #FAFAFA;
+  -webkit-text-stroke: 1px  #FAFAFA;
+}
+
+.Accessories:hover::before{
+  transition: 0.5s;
+  width: 123px;
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+}
+
+.Watches {
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.Watches:before{
+  content: attr(text);
+  position:absolute;
+  color: white;
+  width: 1px;
+  overflow: hidden;
+  transition: 1s;
+  border-right:  #FAFAFA;
+  -webkit-text-stroke: 1px  #FAFAFA;
+}
+
+.Watches:hover::before{
+  transition: 0.5s;
+  width: 105px;
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+}
+
+.Middlee-box > p {
+
+  margin-left: 20px;
+}
+
+
+@media only screen and (max-width: 1400px){
+  .Middlee-box {
+    gap: 150px;
+  }
+}
+
+@media only screen and (max-width: 1301px){
+  .Middlee-box {
+    gap: 140px;
+  }
+}
+@media only screen and (max-width: 1245px){
+  .Middlee-box {
+    gap: 130px;
+  }
+}
+@media only screen and (max-width: 1180px){
+  .Middlee-box {
+    gap: 120px;
+  }
+}
+@media only screen and (max-width: 1120px){
+  .Middlee-box {
+    gap: 110px;
+  }
+}
+@media only screen and (max-width: 1060px){
+  .Middlee-box {
+    gap: 100px;
+  }
+}
+@media only screen and (max-width: 1000px){
+  .Middlee-box {
+    gap: 90px;
+  }
+}
+@media only screen and (max-width: 935px){
+  .Middlee-box {
+    gap: 80px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .Image2 {
+    margin-top: 200px;
+  }
+}
+@media only screen and (max-width: 880px){
+  .Middlee-box {
+    gap: 70px;
+  }
+}
+@media only screen and (max-width: 850px){
+  .Middlee-box {
+    gap: 60px;
+  }
+}
+@media only screen and (max-width: 795px){
+  .Middlee-box {
+    gap: 50px;
+  }
+}
+@media only screen and (max-width: 745px){
+  .Middlee-box {
+    gap: 40px;
+  }
+}
+@media only screen and (max-width: 695px){
+  .Middlee-box {
+    gap: 30px;
+  }
+}
+@media only screen and (max-width: 645px){
+  .Middlee-box {
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 595px){
+  .Middlee-box {
+    gap: 10px;
+  }
+}
+@media only screen and (max-width: 550px){
+  .Middlee-box {
+    gap: 50px;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 495px){
+  .Middlee-box {
+    gap: 5px;
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 455px){
+  .Middlee-box {
+    gap: 10px;
+    font-size: 12px;
+  }
+  .Middlee-box > p {
+    margin-left: 15px;
+  }
+}
+@media only screen and (max-width: 415px){
+  .Middlee-box {
+    gap: 20px;
+    font-size: 12px;
+  }
+  .Middlee-box > p {
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .Middle-box {
+    gap: 180px;
+  }
+}
+@media only screen and (max-width: 1190px) {
+  .Middle-box {
+    gap: 150px;
+  }
+}
+@media only screen and (max-width: 1065px) {
+  .Middle-box {
+    gap: 130px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .Middle-box {
+    gap: 100px;
+  }
+}
+@media only screen and (max-width: 870px) {
+  .Middle-box {
+    gap: 80px;
+  }
+}
+@media only screen and (max-width: 790px) {
+  .Middle-box {
+    gap: 60px;
+  }
+}
+@media only screen and (max-width: 705px) {
+  .Middle-box {
+    gap: 40px;
+  }
+}
+@media only screen and (max-width: 625px) {
+  .Middle-box {
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 545px) {
+  .Middle-box {
+    gap: 10px;
+  }
+}
+@media only screen and (max-width: 505px) {
+  .Middle-box {
+    gap: 10px;
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .Middle-box {
+    gap: 10px;
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .Middle-box {
+    gap: 10px;
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .Middle-box {
+    gap: 5px;
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 365px){
+  .Middlee-box {
+    gap: 7px;
+    font-size: 12px;
+  }
+  .Middlee-box > p {
+    margin-left: 7px;
+  }
+}

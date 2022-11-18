@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+.Man {
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none;
+}
+.Man:before{
+  content: attr(text);
+  position:absolute;
+  color: white;
+  width: 3px;
+  overflow: hidden;
+  transition: 1s;
+  border-right: 3px solid #FAFAFA;
+  -webkit-text-stroke: 1px  #FAFAFA;
+}
+
+.Man:hover::before{
+  transition: 0.5s;
+  width: 50px;
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+}
+
+.Beauty {
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.Beauty:before{
+  content: attr(text);
+  position:absolute;
+  color: white;
+  width: 1px;
+  overflow: hidden;
+  transition: 1s;
+  border-right: 3px solid #FAFAFA;
+  -webkit-text-stroke: 1px  #FAFAFA;
+}
+
+.Beauty:hover::before{
+  transition: 0.5s;
+  width: 70px;
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+}
+
+.Women {
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: rgb(251, 251, 251);
+  cursor: pointer;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+.Women:before{
+  text-decoration: none;
+  content: attr(text);
+  position:absolute;
+  color: white;
+  width: 1px;
+  overflow: hidden;
+  transition: 1s;
+  border-right: 3px solid #FAFAFA;
+  -webkit-text-stroke: 1px  #FAFAFA;
+}
+
+.Women:hover::before{
+  transition: 0.5s;
+  width: 70px;
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+}
+.Navbar-Man {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  gap: 130px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(0, 0, 0);
+  background-color: #212121;
+}
+
+.Child {
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  margin-right: 0px;
+  padding-left: 0;
+}
+.Child:before{
+  content: attr(text);
+  position:absolute;
+  color: white;
+  width: 1px;
+  overflow: hidden;
+  border-right: 3px solid #FAFAFA;
+  -webkit-text-stroke: 1px  #FAFAFA;
+}
+
+.Child:hover::before{
+  transition: 0.5s;
+  width: 60px;
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+}
+
+.discount {
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.discount:before{
+  content: attr(text);
+  position:absolute;
+  color: white;
+  width: 1px;
+  overflow: hidden;
+  transition: 1s;
+  border-right: 3px solid #FAFAFA;
+  -webkit-text-stroke: 1px  #FAFAFA;
+}
+
+.discount:hover::before{
+  transition: 0.5s;
+  width: 45px;
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+}
+/*
+.Navbar-Man > P:hover {
+  color: #78909C;
+  cursor: pointer;
+  transition: 0.5s;
+}
+*/
+
+
+.Icons {
+  display: flex;
+  gap: 80px;
+  z-index: 1;
+  cursor: pointer;
+  fill: white;
+}
+@media only screen and (max-width: 1400px){
+}
+
+@media only screen and (max-width: 1245px){
+  .Navbar-Man {
+    gap: 150px;
+  }
+}
+.Middle-box {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: #212121;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.Clothes {
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.Clothes:before{
+  content: attr(text);
+  position:absolute;
+  color: white;
+  width: 1px;
+  overflow: hidden;
+  transition: 1s;
+  border-right:  #FAFAFA;
+  -webkit-text-stroke: 1px  #FAFAFA;
+}
+
+.Clothes:hover::before{
+  transition: 0.5s;
+  width: 80px;
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+}
+
+.Shoes {
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.Shoes:before{
+  content: attr(text);
+  position:absolute;
+  color: white;
+  width: 1px;
+  overflow: hidden;
+  transition: 1s;
+  border-right:  #FAFAFA;
+  -webkit-text-stroke: 1px  #FAFAFA;
+}
+
+.Shoes:hover::before{
+  transition: 0.5s;
+  width: 60px;
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+}
+
+.Sneakers {
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.Sneakers:before{
+  content: attr(text);
+  position:absolute;
+  color: white;
+  width: 1px;
+  overflow: hidden;
+  transition: 1s;
+  border-right:  #FAFAFA;
+  -webkit-text-stroke: 1px  #FAFAFA;
+}
+
+.Sneakers:hover::before{
+  transition: 0.5s;
+  width: 95px;
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+}
+
+.Bags {
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.Bags:before{
+  content: attr(text);
+  position:absolute;
+  color: white;
+  width: 1px;
+  overflow: hidden;
+  transition: 1s;
+  border-right:  #FAFAFA;
+  -webkit-text-stroke: 1px  #FAFAFA;
+}
+
+.Bags:hover::before{
+  transition: 0.5s;
+  width: 50px;
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+}
+
+.Accessories {
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.Accessories:before{
+  content: attr(text);
+  position:absolute;
+  color: white;
+  width: 1px;
+  overflow: hidden;
+  transition: 1s;
+  border-right:  #FAFAFA;
+  -webkit-text-stroke: 1px  #FAFAFA;
+}
+
+.Accessories:hover::before{
+  transition: 0.5s;
+  width: 123px;
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+}
+.Watches {
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.Watches:before{
+  content: attr(text);
+  position:absolute;
+  color: white;
+  width: 1px;
+  overflow: hidden;
+  transition: 1s;
+  border-right:  #FAFAFA;
+  -webkit-text-stroke: 1px  #FAFAFA;
+}
+
+.Watches:hover::before{
+  transition: 0.5s;
+  width: 105px;
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+}
+
+.Middle-box > p {
+
+  margin-left: 20px;
+}

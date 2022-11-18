@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+.Middle-Text{
+  display: flex;
+  width: 100%;
+  height: 450px;
+  flex-wrap: wrap;
+  padding-bottom: 150px;
+  padding-top: 100px;
+}
+.Middle-Css{
+  background-color: #E0E0E0;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+.Middle-Text-1 > p {
+  width: 400px;
+  font-size: 17px;
+  text-align: center;
+  padding: 10px;
+}
+.Middle-Text-1 > h1 {
+  text-align: center;
+  width: 400px;
+  color: #004D40
+}
+.Middle-Text-1{
+  display: flex;
+  justify-content: center;
+  width: 45%;
+  flex-direction: column;
+  align-items: center;
+  height: 450px;
+}
+.Middle-Image{
+  display: flex;
+  justify-content: center;
+  width: 45%;
+  flex-direction: column;
+  align-items: center;
+  height: 450px;
+}
+
+.Image35 {
+  height: 620px;
+  width: 533px;
+}
+.Image--35{
+  height: 620px;
+  width: 533px;
+  padding-top: 140px;
+}
+.Image3{
+  height: 450px;
+  width: 550px;
+}
+.Teddy-jackets{
+  width: 590px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.STREETWEAR{
+  color: #00897B;
+  margin-top: 10px;
+}
+.STREETWEAR-NEWS{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1075px){
+  .Middle-Image{
+    width: 100%;
+  }
+  .STREETWEAR-NEWS{
+    margin-top: 480px;
+    width: 100%;
+  }
+  .Middle-Text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+.most-beautiful-brands{
+  padding: 88px 48px 24px 48px;
+}
+.ultra-popular{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.most-beautiful-Imageee{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.Image-4{
+  margin-top: 20px;
+  width: 352px;
+  height: 376px;
+}
+
+
+.Image5-box > p {
+  background-color: #B0BEC5;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.most-beautiful-Week{
+  padding: 88px 48px 24px 48px;
+}
+.ESSENTIALS{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.most-beautiful-ESSENTIALS{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 130px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.most-beautiful-for-child{
+  display: flex;
+  align-items: center;
+  gap: 450px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.most-beautiful-for-child-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding-bottom: 50px;
+}
+.Image55{
+  margin-top: 20px;
+  width: 450px;
+  height: 500px;
+}
+@media only screen and (max-width: 1217px){
+  .most-beautiful-Image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .most-beautiful-ESSENTIALS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    gap: 20px;
+  }
+  .Image5 {
+    width: 370px;
+  }
+}
+.IN-REVIEW{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.new-additions{
+  padding: 88px 48px 88px 48px;
+}
+.new-additions-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;
+  overflow: hidden;
+  font-size: 15px;
+}
+.Boxx-Image-1{
+  position: relative;
+  background: #fff;
+  color: #64DD17;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  padding: 10px 30px 10px 30px;
+  transition: 0.5s;
+  height: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  min-height: 82px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Boxx-Image-1:hover {
+  background: #64DD17;
+  color: #64DD17;
+  box-shadow: 0 0 35px var(--cr);
+  cursor: pointer;
+}
+.Boxx-Image-1::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #212121;
+}
+.Image-55{
+  width: 952px;
+  height: 576px;
+}
+.Image-last{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.Boxx-Image-1:hover{
+  color: red;
+}
+.Boxx-Image-1 .Boxx-Image-Text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  color: rgb(255, 255, 255);
+}
+.Boxx-Image-Text {
+  line-height: 18px;
+}
+.Boxx-Image-1 .Boxx-Image-Help {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+.Boxx-Image-1 .Boxx-Image-Help::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 80%;
+  width: 10px;
+  height: 4px;
+  background: white;
+  transform: translate(-50%) skew(325deg);
+  transition: 0.5s;
+}
+
+.Boxx-Image-1:hover .Boxx-Image-Help::before {
+  width: 20px;
+  left: 20%;
+}
+
+.Boxx-Image-1 .Boxx-Image-Help::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  width: 10px;
+  height: 4px;
+  background: white;
+  transform: translate(-50%) skew(325deg);
+  transition: 0.5s;
+}
+
+.Boxx-Image-1:hover .Boxx-Image-Help::after {
+  width: 20px;
+  left: 80%;
+}
+
+.Latex{
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 20px;
+}
+
+
+.text-padding {
+  padding-bottom: 5px;
+}
+.text-paddingg {
+  padding-top: 10px;
+}
+
+.green{
+  color:#64DD17
+}
+.Boxx-Image-Text:hover {
+  color:#64DD17 ;
+}
+.FARFETCH-BEAUTY {
+  display: flex;
+  justify-content: center;
+}
+.FARFETCH-collective{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.FARFETCH-collective > p {
+  width: 900px;
+  text-align: center;
+  margin-top: 20px;
+}
+.min-height-test {
+  height: 70px;
+}
+
+
+@media only screen and (max-width: 1075px){
+  .most-beautiful-Imageee{
+    padding-top: 0px;
+  }
+  .Image2{
+      margin-top: 100px;
+  }
+  .most-beautiful-for-child {
+    gap: 100px;
+  }
+  .most-beautiful-Imagee {
+    gap: 100px;
+    row-gap: 10px;
+  }
+  .selected{
+    margin-top: 100px;
+  }
+  .most-beautiful-for-child-2 {
+    gap: 100px;
+    row-gap: 10px;
+  }
+  .Middle-Text-1 {
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+  }
+  .ultra-popular {
+    margin-top: 250px;
+  }
+  .most-beautiful-Imageee {
+    row-gap: 10px;
+  }
+  .new-t-shirts-box {
+    column-gap: 100px;
+    row-gap: 25px;
+  }
+  .STREETWEAR-NEWS {
+    margin-top: 200px;
+  }
+  .Image--35 {
+    margin-top: 150px;
+  }
+}
+@media only screen and (max-width: 967px){
+  .Image-55{
+    width: 852px;
+    height: 576px;
+  }
+  .ultra-popular {
+    margin-top: 250px;
+  }
+  .most-beautiful-for-child {
+    gap: 100px;
+  }
+  .new-additions-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    gap: 100px;
+  }
+  .new-additions-box {
+    row-gap: 10px;
+  }
+  .selected {
+    margin-top: 80px;
+  }
+  .new-additions {
+    padding: 18px 48px 88px 48px;
+  }
+  .STREETWEAR-NEWS {
+    margin-top: 200px;
+  }
+}
+@media only screen and (max-width: 880px){
+  .Image-55{
+    width: 752px;
+    height: 576px;
+  }
+  .most-beautiful-Image {
+    row-gap: 10px;
+  }
+  .most-beautiful-for-child {
+    gap: 100px;
+  }
+  .STREETWEAR-NEWS {
+    margin-top: 200px;
+  }
+  .ultra-popular {
+    margin-top: 250px;
+  }
+}
+@media only screen and (max-width: 790px){
+  .Image-55{
+    width: 652px;
+    height: 576px;
+  }
+  .most-beautiful-for-child {
+    gap: 100px;
+  }
+  
+}
+@media only screen and (max-width: 665px){
+  .Image-55{
+    width: 352px;
+    height: 476px;
+  }
+  .most-beautiful-for-child {
+    gap: 100px;
+  }
+  .FARFETCH-collective {
+    padding: 0 20px;
+  }
+}
+@media only screen and (max-width: 573px){
+  .Image--35{
+    height: 620px;
+    width: 433px;
+    padding-top: 140px;
+  }
+  .most-beautiful-for-child {
+    gap: 100px;
+  }
+}
+@media only screen and (max-width: 469px){
+  .Image--35{
+    height: 420px;
+    width: 333px;
+    padding-top: 0px;
+  }
+  .most-beautiful-for-child {
+    gap: 100px;
+  }
+  .Middle-Text-1 > p {
+    width: 350px;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px 20px;
+  }
+}
+@media only screen and (max-width: 625px){
+  .Image2{
+    height: 450px;
+    width: 450px;
+  }
+  .most-beautiful-for-child {
+    gap: 100px;
+  }
+  .Teddy-jackets {
+    width: 400px;
+  }
+  .Image3 {
+    height: 450px;
+    width: 450px;
+  }
+  .Boxx-Image-Text {
+    font-size: 10px;
+  }
+  .Image55 {
+    width: 250px;
+    height: 400px;
+  }
+  .Image555 {
+    width: 300px;
+    height: 400px;
+  }
+  .Image5555 {
+    width: 328px;
+    height: 400px;
+  }
+  .Image55555 {
+    width: 325px;
+    height: 400px;
+  }
+  .Image35 {
+    width: 350px;
+  }
+  .selectedd {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 505px){
+  .Image2{
+    height: 400px;
+    width: 350px;
+  }
+  .most-beautiful-for-child {
+    gap: 100px;
+  }
+  .Teddy-jackets {
+    width: 400px;
+  }
+  .Image3 {
+    height: 400px;
+    width: 350px;
+  }
+
+}
+@media only screen and (max-width: 435px){
+  .Teddy-jackets {
+    width: 300px;
+  }
+  .Middle-Text-1 > h1 {
+    width: 300px;
+  }
+  .most-beautiful-for-child {
+    gap: 100px;
+  }
+  .Middle-Text-1 > p {
+    width: 300px;
+    font-size: 17px;
+  }
+  .ultra-popular {
+    margin-top: 100px;
+  }
+}
+@media only screen and (max-width: 390px){
+  .ESSENTIALS {
+    font-size: 18px;
+  }
+
+}

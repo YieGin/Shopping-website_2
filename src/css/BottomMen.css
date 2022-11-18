@@ -1,0 +1,658 @@
+.Bottom-Boss{
+  background-color: #212121;  
+  height: 500px;
+  display: flex;
+  padding: 20px 18px;
+  flex-wrap: wrap;
+  line-height: 2.5;
+  gap: 150px;
+  color: white;
+  justify-content: center;
+}
+.Customers {
+  height: 400px;
+  margin-bottom: 155px;
+  height: 0;
+}
+.About-Yie {
+  height: 400px;
+  height: 0;
+}
+
+.CopyRight{
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #5C6BC0;
+}
+.Contact-us {
+  position: relative;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: #BDBDBD;
+  cursor: pointer;
+  width: 100%;
+}
+.Contact-us:hover {
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.Orders-delivery {
+  position: relative;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: #BDBDBD;
+  cursor: pointer;
+  width: 100%;
+}
+.Orders-delivery:hover {
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+  text-decoration: underline;
+  color: #ffffff
+  ;
+}
+
+.Payment-pricing {
+  position: relative;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: #BDBDBD;
+  cursor: pointer;
+  width: 100%;
+}
+.Payment-pricing:hover {
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+  text-decoration: underline;
+  color: #ffffff
+  ;
+}
+.Returns-refunds {
+  position: relative;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: #BDBDBD;
+  cursor: pointer;
+  width: 100%;
+}
+.Returns-refunds:hover {
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+  text-decoration: underline;
+  color: #ffffff
+  ;
+}
+.FAQs {
+  position: relative;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: #BDBDBD;
+  cursor: pointer;
+  width: 100%;
+}
+.FAQs:hover {
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+  text-decoration: underline;
+  color: #ffffff
+  ;
+}
+.Terms-conditions {
+  position: relative;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: #BDBDBD;
+  cursor: pointer;
+  width: 100%;
+}
+.Terms-conditions:hover {
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+  text-decoration: underline;
+  color: #ffffff
+  ;
+}
+.Privacy-policy {
+  position: relative;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: #BDBDBD;
+  cursor: pointer;
+  width: 100%;
+}
+.Privacy-policy:hover {
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+  text-decoration: underline;
+  color: #ffffff
+  ;
+}
+.Cookie-preferences {
+  position: relative;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: #BDBDBD;
+  cursor: pointer;
+  width: 100%;
+}
+.Cookie-preferences:hover {
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+  text-decoration: underline;
+  color: #ffffff
+  ;
+}
+.Accessibility {
+  position: relative;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: #BDBDBD;
+  cursor: pointer;
+  width: 100%;
+}
+.Accessibility:hover {
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+  text-decoration: underline;
+  color: #ffffff
+  ;
+}
+
+.About-us {
+  position: relative;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: #BDBDBD;
+  cursor: pointer;
+  width: 100%;
+}
+.About-us:hover {
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+  text-decoration: underline;
+  color: #ffffff
+  ;
+}
+.Investors {
+  position: relative;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: #BDBDBD;
+  cursor: pointer;
+  width: 100%;
+}
+.Investors:hover {
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+  text-decoration: underline;
+  color: #ffffff
+  ;
+}
+.Loyalty-programme {
+  position: relative;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: #BDBDBD;
+  cursor: pointer;
+  width: 100%;
+}
+.Loyalty-programme:hover {
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+  text-decoration: underline;
+  color: #ffffff
+  ;
+}
+.Friend-Referral-Discount {
+  position: relative;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: #BDBDBD;
+  cursor: pointer;
+  width: 100%;
+}
+.Friend-Referral-Discount:hover {
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+  text-decoration: underline;
+  color: #ffffff
+  ;
+}
+.Affiliate-programme {
+  position: relative;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: #BDBDBD;
+  cursor: pointer;
+  width: 100%;
+}
+.Affiliate-programme:hover {
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+  text-decoration: underline;
+  color: #ffffff
+  ;
+}
+.Student-discount-UNiDAYS {
+  position: relative;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: #BDBDBD;
+  cursor: pointer;
+  width: 100%;
+}
+.Student-discount-UNiDAYS:hover {
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+  text-decoration: underline;
+  color: #ffffff
+  ;
+}
+.Key-worker-discount {
+  position: relative;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: #BDBDBD;
+  cursor: pointer;
+  width: 100%;
+}
+.Key-worker-discount:hover {
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+  text-decoration: underline;
+  color: #ffffff
+  ;
+}
+.Youth-discount {
+  position: relative;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: #BDBDBD;
+  cursor: pointer;
+  width: 100%;
+}
+.Youth-discount:hover {
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+  text-decoration: underline;
+  color: #ffffff
+  ;
+}
+.Donate-and-Save {
+  position: relative;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: #BDBDBD;
+  cursor: pointer;
+  width: 100%;
+}
+.Donate-and-Save:hover {
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+  text-decoration: underline;
+  color: #ffffff;
+}
+.Community-Discount {
+  position: relative;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: #BDBDBD;
+  cursor: pointer;
+  width: 100%;
+}
+.Community-Discount:hover {
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+  text-decoration: underline;
+  color: #ffffff;
+}
+.Careers {
+  position: relative;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: #BDBDBD;
+  cursor: pointer;
+  width: 100%;
+}
+.Careers:hover {
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+  text-decoration: underline;
+  color: #ffffff
+  ;
+}
+.YieShop-Customer-Promise {
+  position: relative;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: #BDBDBD;
+  cursor: pointer;
+  width: 100%;
+}
+.YieShop-Customer-Promise:hover {
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+  text-decoration: underline;
+  color: #ffffff;
+}
+.YieShop-app {
+  position: relative;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(225, 225, 225, 0.5);
+  color: #BDBDBD;
+  cursor: pointer;
+  width: 100%;
+}
+.YieShop-app:hover {
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+  color: #ffffff;
+  text-decoration: underline;
+}
+.image.png {
+  display: flex;
+  flex-wrap: wrap;
+}
+.H-2 {
+  color: #5C6BC0;
+}
+.Idk {
+  height: 60%;
+  display: flex;
+  align-items: center;
+}
+.share_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 260px;
+  height: 60px;
+  border-radius: 20px;
+  background: #000000;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+.share_button span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+  z-index: 1;
+  transition: 0.6s linear;
+  border-radius: 20px;
+}
+
+.share_button:hover span {
+  transform: translateX(-100%);
+  transition-delay: 0.3s;
+}
+
+.share_button a {
+  flex: 1;
+  font-size: 24px;
+  color: #2a2f31;
+  text-align: center;
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: 0.3s linear;
+}
+
+.share_button:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 25px rgba(22, 117, 194, 0.9));
+}
+
+.share_button:hover a {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.share_button a:nth-of-type(1) {
+  transition-delay: 1s;
+}
+
+.share_button a:nth-of-type(2) {
+  transition-delay: 0.8s;
+}
+
+.share_button a:nth-of-type(3) {
+  transition-delay: 0.6s;
+}
+
+.share_button a:nth-of-type(4) {
+  transition-delay: 0.4s;
+}
+.linkedin {
+  fill: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.twitter {
+  fill: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.instagram {
+  fill: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.facebook {
+  fill: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 1290px){
+  .Bottom-Boss {
+    height: 480px;
+    gap: 50px;
+  }
+  .CopyRight {
+    gap: 0;
+    font-size: 17px;
+    width: 100%;
+    margin-top: 100px;
+    color: #5C6BC0;
+  }
+
+}
+@media only screen and (max-width: 1025px){
+  .Bottom-Boss {
+    gap: 150px;
+    height: 550px;
+  }
+  .CopyRight {
+    font-size: 15px;
+    width: 100%;
+    margin-top: 190px;
+    color: #5C6BC0;
+  }
+  .Idk {
+    display: none;
+  }
+  .Social-Media {
+    display: flex;
+    z-index: 15;
+    gap: 40px;
+    padding-top: 20px;
+  }
+}
+@media only screen and (max-width: 913px) and (min-width: 831px) {
+  .Bottom-Boss {
+    gap: 50px;
+    height: 990px;
+  }
+  .CopyRight {
+    gap: 0;
+    font-size: 17px;
+    width: 100%;
+    margin-bottom: 500px;
+    color: #5C6BC0;
+  }
+}
+
+@media only screen and (max-width: 830px) and (min-width: 770px){
+  .Bottom-Boss {
+    gap: 50px;
+    height: 790px;
+  }
+  .CopyRight {
+    gap: 0;
+    font-size: 17px;
+    width: 100%;
+    margin-bottom: 300px;
+    color: #5C6BC0;
+  }
+}
+
+@media only screen and (max-width: 769px){
+  .Bottom-Boss {
+    gap: 80px;
+    height: 600px;
+    font-size: 13px;
+  }
+  .CopyRight {
+    gap: 0;
+    font-size: 17px;
+    width: 100%;
+    margin-top: -200px;
+    color: #5C6BC0;
+  }
+
+}
+
+@media only screen and (max-width: 541px) and (min-width: 416px) {
+  .Bottom-Boss {
+    gap: 80px;
+    height: 600px;
+    font-size: 13px;
+  }
+  .CopyRight {
+    gap: 0;
+    font-size: 17px;
+    width: 100%;
+    margin-top: 80px;
+    color: #5C6BC0;
+  }
+  .Social-Media {
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 415px){
+  .Bottom-Boss {
+    gap: 200px;
+    height: 1150px;
+  }
+  .CopyRight > h3 {
+    gap: 0;
+    font-size: 17px;
+    width: 100%;
+    margin-top: 150px;
+    color: #5C6BC0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 376px){
+  .Bottom-Boss {
+    gap: 300px;
+    height: 1100px;
+  }
+  .CopyRight > h3 {
+    gap: 0;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 150px;
+    color: #5C6BC0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.bg-colour {
+  color: rgb(33,33,33)
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.instagram-logo {
+    transition: 0.5s;
+    z-index: 5;
+    fill: white;
+}
+
+.instagram-logo:hover {
+    fill: teal;
+    cursor: pointer;
+}
+
+.twitter-logo:hover {
+  fill: steelblue;
+  cursor: pointer;
+}
+
+.logo {
+  transition: 0.5s;
+  z-index: 5;
+  fill: white;
+
+}
+.Social-Media {
+  display: flex;
+  gap: 40px;
+  padding-top: 20px;
+}
+
+.facebook-logo:hover {
+  fill: royalblue;
+  cursor: pointer;
+}

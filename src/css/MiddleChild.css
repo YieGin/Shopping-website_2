@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+.Middle-Text{
+  display: flex;
+  width: 100%;
+  height: 450px;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+.Middle-Css{
+  background-color: #E0E0E0;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+.Middle-Text-1 > p {
+  width: 400px;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 20px;
+}
+.Middle-Text-1 > h1 {
+  text-align: center;
+  width: 400px;
+  color: #004D40
+}
+.Middle-Text-1{
+  display: flex;
+  justify-content: center;
+  width: 45%;
+  flex-direction: column;
+  align-items: center;
+  height: 450px;
+}
+.Middle-Image{
+  display: flex;
+  justify-content: center;
+  width: 45%;
+  flex-direction: column;
+  align-items: center;
+  height: 450px;
+}
+.Image2{
+  height: 450px;
+  width: 550px;
+}
+.Image35 {
+  height: 450px;
+  width: 550px;
+  padding-top: 50px;
+}
+.Image3{
+  height: 450px;
+  width: 550px;
+}
+.Teddy-jackets{
+  width: 590px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.STREETWEAR{
+  color: #00897B;
+  margin-top: 10px;
+}
+.STREETWEAR-NEWS{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1075px){
+  .Middle-Image{
+    width: 100%;
+  }
+  .STREETWEAR-NEWS{
+    margin-top: 480px;
+    width: 100%;
+  }
+  .Middle-Text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+.most-beautiful-brands{
+  padding: 88px 48px 24px 48px;
+}
+.selected{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.most-beautiful-Imagee{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 220px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.Image-4{
+  margin-top: 20px;
+  width: 352px;
+  height: 376px;
+}
+
+
+.Image5-box > p {
+  background-color: #B0BEC5;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.most-beautiful-Week{
+  padding: 88px 48px 24px 48px;
+}
+.ESSENTIALS{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.most-beautiful-ESSENTIALS{
+  display: flex;
+  align-items: center;
+  gap: 130px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.most-beautiful-for-child{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 450px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.most-beautiful-for-child-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding-bottom: 50px;
+}
+.Image55{
+  margin-top: 20px;
+  width: 450px;
+  height: 500px;
+}
+.Image555{
+  margin-top: 20px;
+  width: 450px;
+  height: 500px;
+}
+.Image5555{
+  margin-top: 20px;
+  width: 450px;
+  height: 500px;
+}
+.Image55555{
+  margin-top: 20px;
+  width: 450px;
+  height: 500px;
+}
+@media only screen and (max-width: 1217px){
+  .most-beautiful-Image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .most-beautiful-ESSENTIALS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    gap: 20px;
+  }
+}
+.IN-REVIEW{
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.new-t-shirts{
+  padding: 88px 48px 88px 48px;
+}
+.new-t-shirts-box{
+  display: flex;
+  align-items: center;
+  gap: 130px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.Boxx-Image-1{
+    position: relative;
+    background: #fff;
+    color: #64DD17;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    padding: 10px 30px 10px 30px;
+    transition: 0.5s;
+    height: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    min-height: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Boxx-Image-1:hover {
+  background: #64DD17;
+  color: #64DD17;
+  box-shadow: 0 0 35px var(--cr);
+  cursor: pointer;
+}
+.Boxx-Image-1::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #212121;
+}
+.Boxx-Image-1:hover{
+  color: red;
+}
+.Boxx-Image-1 .Boxx-Image-Text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  color: rgb(255, 255, 255);
+}
+
+.Boxx-Image-1 .Boxx-Image-Help {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+.Boxx-Image-1 .Boxx-Image-Help::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 80%;
+  width: 10px;
+  height: 4px;
+  background: white;
+  transform: translate(-50%) skew(325deg);
+  transition: 0.5s;
+}
+
+.Boxx-Image-1:hover .Boxx-Image-Help::before {
+  width: 20px;
+  left: 20%;
+}
+
+.Boxx-Image-1 .Boxx-Image-Help::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  width: 10px;
+  height: 4px;
+  background: white;
+  transform: translate(-50%) skew(325deg);
+  transition: 0.5s;
+}
+
+.Boxx-Image-1:hover .Boxx-Image-Help::after {
+  width: 20px;
+  left: 80%;
+}
+
+.text-padding {
+  padding-bottom: 5px;
+}
+.text-paddingg {
+  padding-top: 10px;
+}
+
+.green{
+  color:#64DD17
+}
+.Boxx-Image-Text:hover {
+  color:#64DD17 ;
+}

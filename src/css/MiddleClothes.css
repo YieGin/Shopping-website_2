@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+.MiddleClothes-Main{
+  display: flex;
+  background-color: #E0E0E0;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.MiddleClothes-left > p {
+  display: flex;
+  gap: 20px;
+  width: 93px;
+  font-size: 10px;
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+  font-size: 15px;
+}
+.Helper {
+  width: 100%;
+  height: 2000px;
+}
+.svg-color {
+  cursor: pointer;
+}
+.svgwhatevcer {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.MiddleClothes-left-Hover{
+  display: flex;
+  gap: 20px;
+  width: 93px;
+  font-size: 9px;
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(225, 225, 225, 0.5);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 15px;
+}
+.MiddleClothes-left-Hover > p {
+  font-size: 9px;
+}
+.Svg{
+  margin-top: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  width: 20px;
+}
+.Svgg {
+  margin-top: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.MiddleClothes-left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+  margin-top: 80px;
+  line-height: 50px;
+}
+.MiddleClothes-leftt{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+  margin-top: 80px;
+  height: 100%;
+  line-height: 50px;
+}
+.MiddleClothes-leftt-Hover{
+  display: flex;
+  gap: 20px;
+  width: 93px;
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba (225, 225, 225, 0.5);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 15px;
+}
+.MiddleClothes-right{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 100%;
+  margin-top: 80px;
+  gap: 100px;
+  padding-bottom: 80px;
+}
+.MiddleClothes-left_text {
+  width: 50px;
+}
+.MiddleClothes-leftt_text {
+  width: 50px;
+}
+.MiddleClothes-left-Hover:before{
+  text-decoration: none;
+  content: attr(text);
+  position:absolute;
+  color: black;
+  width: 1px;
+  overflow: hidden;
+  transition: 0.5s;
+  border-bottom: 1px solid #827717;
+}
+.MiddleClothes-leftt-Hover:before{
+  text-decoration: none;
+  content: attr(text);
+  position:absolute;
+  color: black;
+  width: 1px;
+  overflow: hidden;
+  transition: 0.5s;
+  border-bottom: 2px solid #607D8B  ;
+}
+.MiddleClothes-left-Hover:hover::before{
+  transition: 0.5s;
+  width: 120px;
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+}
+.MiddleClothes-leftt-Hover:hover::before{
+  transition: 0.5s;
+  width: 120px;
+  filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.9));
+}
+.Cloth-Image {
+  height: 396px;
+  width: 297px;
+}
+.testtttt {
+  display: flex;
+  flex-direction: column;
+}
+.Cloth-help{
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  background: #fff;
+  color: #64DD17;
+  text-decoration: none;
+  font-size: 0.8em;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  padding: 10px 30px 10px 30px;
+  transition: 0.5s;
+  height: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  min-height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Cloth-help:hover {
+  background: #64DD17;
+  color: #64DD17;
+  box-shadow: 0 0 35px var(--cr);
+  cursor: pointer;
+}
+.Cloth-help::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #212121;
+}
+.Cloth-help:hover{
+  color: red;
+}
+.Cloth-help .CLoth-box-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  color: rgb(255, 255, 255);
+}
+
+.Cloth-help .Box-Clothes-Help {
+  position: absolute;
+  inset: 0;
+  display: block;
+  
+}
+
+.Cloth-help .Box-Clothes-Help::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 80%;
+  width: 10px;
+  height: 4px;
+  background: white;
+  transform: translate(-50%) skew(325deg);
+  transition: 0.5s;
+}
+
+.Cloth-help:hover .Box-Clothes-Help::before {
+  width: 20px;
+  left: 20%;
+}
+
+.Cloth-help .Box-Clothes-Help::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  width: 10px;
+  height: 4px;
+  background: white;
+  transform: translate(-50%) skew(325deg);
+  transition: 0.5s;
+}
+
+.Cloth-help:hover .Box-Clothes-Help::after {
+  width: 20px;
+  left: 80%;
+}
+.CLoth-box-text:hover {
+  color: #64DD17;
+}
+.CLoth-box-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+@media only screen and (max-width: 913px){
+  .MiddleClothes-right {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 70%;
+      height: 100%;
+      gap: 50px;
+  }
+  .Cloth-Image {
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width: 821px){
+  .MiddleClothes-right {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 70%;
+      height: 100%;
+      gap: 50px;
+  }
+  .Cloth-Image {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 769px){
+  .MiddleClothes-right {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 70%;
+      height: 100%;
+      gap: 50px;
+  }
+  .Cloth-Image {
+    width: 225px;
+  }
+  .CLoth-box-text > span {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 420px){
+  .MiddleClothes-right {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 70%;
+      height: 100%;
+      gap: 0;
+  }
+  .Cloth-Image {
+    width: 250px;
+  }
+  .MiddleClothes-left-Hover {
+    font-size: 10px;
+  }
+}
