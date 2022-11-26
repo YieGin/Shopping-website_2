@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Man from "./jsx/Man";
 import Women from "./jsx/Women";
 import Child from "./jsx/Child";
@@ -25,7 +25,7 @@ import Scent from "./jsx/Scent";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Man />}></Route>
         <Route path="/Women" element={<Women />}></Route>
@@ -50,7 +50,7 @@ const App = () => {
         <Route path="/WomenWatches" element={<WomenWatches />}></Route>
         <Route path="/ChildShoes" element={<ChildShoes />}></Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
